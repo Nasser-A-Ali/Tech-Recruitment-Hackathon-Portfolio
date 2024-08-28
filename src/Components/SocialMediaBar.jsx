@@ -1,7 +1,11 @@
 const SocialMediaBar = () => {
   return (
     <aside className="social-media-bar">
-      <a href="https://github.com/Nasser-A-Ali/" target="_blank">
+      <a
+        href="https://github.com/Nasser-A-Ali/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40"
@@ -12,7 +16,11 @@ const SocialMediaBar = () => {
         </svg>
       </a>
 
-      <a href="https://www.linkedin.com/in/Nasser-A-Ali/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/Nasser-A-Ali/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40"
@@ -23,7 +31,7 @@ const SocialMediaBar = () => {
         </svg>
       </a>
 
-      <a href="mailto:nasserali60@live.com" target="_blank">
+      <a href="mailto:nasserali60@live.com">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40"

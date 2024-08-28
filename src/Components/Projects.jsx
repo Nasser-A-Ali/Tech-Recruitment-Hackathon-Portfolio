@@ -29,7 +29,11 @@ const Projects = () => {
             The portfolio website you are currently viewing was designed in
             Figma and developed in React.js, the code can be viewed on GitHub
             through{" "}
-            <a href="" target="_blank">
+            <a
+              href="https://github.com/Nasser-A-Ali/Nas-Portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               this link
             </a>
             . Some of the highlighted skills used in making it include{" "}
@@ -69,7 +73,10 @@ const Projects = () => {
             <>
               <div className="singular-project-container">
                 <div className="singular-project-image">
-                  <img src="../images/projects/tech_trends.jpg" alt="" />
+                  <img
+                    src="../images/projects/tech_trends.jpg"
+                    alt="Screenshot of the landing page of my 'Tech Trends' project"
+                  />
                 </div>
                 <div className="singular-project-text">
                   <h2>Tech Trends React Webpage</h2>
@@ -94,6 +101,7 @@ const Projects = () => {
                     className="button"
                     href="https://github.com/Nasser-A-Ali/Tech-Trends"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button>View on GitHub</button>
                   </a>
@@ -104,7 +112,7 @@ const Projects = () => {
                 <div className="singular-project-image">
                   <img
                     src="../images/projects/the_local_restaurant.jpg"
-                    alt=""
+                    alt="Screenshot of the landing page of my 'The Local Restaurant' project"
                   />
                 </div>
                 <div className="singular-project-text">
@@ -129,6 +137,7 @@ const Projects = () => {
                     className="button"
                     href="https://github.com/Nasser-A-Ali/The-Local-Restaurant-Webpage"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button>View on GitHub</button>
                   </a>
@@ -137,7 +146,10 @@ const Projects = () => {
 
               <div className="singular-project-container">
                 <div className="singular-project-image">
-                  <img src="../images/projects/dog_image_gallery.jpg" alt="" />
+                  <img
+                    src="../images/projects/dog_image_gallery.jpg"
+                    alt="Screenshot of the landing page of my 'Dog Images Gallery' project"
+                  />
                 </div>
                 <div className="singular-project-text">
                   <h2>Dog Images Gallery React App</h2>
@@ -158,6 +170,7 @@ const Projects = () => {
                     className="button"
                     href="https://github.com/Nasser-A-Ali/Dog-Images-Gallery"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button>View on GitHub</button>
                   </a>
@@ -166,7 +179,10 @@ const Projects = () => {
 
               <div className="singular-project-container">
                 <div className="singular-project-image">
-                  <img src="../images/projects/task_tracker.jpg" alt="" />
+                  <img
+                    src="../images/projects/task_tracker.jpg"
+                    alt="Screenshot of the landing page of my 'Task Tracker' project"
+                  />
                 </div>
                 <div className="singular-project-text">
                   <h2>Task Tracker React App</h2>
@@ -187,6 +203,7 @@ const Projects = () => {
                     className="button"
                     href="https://github.com/Nasser-A-Ali/Task-Tracker"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button>View on GitHub</button>
                   </a>
@@ -195,7 +212,10 @@ const Projects = () => {
 
               <div className="singular-project-container">
                 <div className="singular-project-image">
-                  <img src="../images/projects/libyan_culture.jpg" alt="" />
+                  <img
+                    src="../images/projects/libyan_culture.jpg"
+                    alt="Screenshot of the landing page of my 'Libyan Culture' webpage"
+                  />
                 </div>
                 <div className="singular-project-text">
                   <h2>Libyan Culture Webpage</h2>
@@ -212,6 +232,7 @@ const Projects = () => {
                     className="button"
                     href="https://github.com/Nasser-A-Ali/Libyan-Culture-Webpage"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button>View on GitHub</button>
                   </a>
@@ -220,7 +241,10 @@ const Projects = () => {
 
               <div className="singular-project-container">
                 <div className="singular-project-image">
-                  <img src="../images/projects/ferrari_la_ferrari.jpg" alt="" />
+                  <img
+                    src="../images/projects/ferrari_la_ferrari.jpg"
+                    alt="Screenshot of the landing page of my 'Ferrari La Ferrari' project"
+                  />
                 </div>
                 <div className="singular-project-text">
                   <h2>Ferrari La Ferrari Webpage</h2>
@@ -240,6 +264,7 @@ const Projects = () => {
                     className="button"
                     href="https://github.com/Nasser-A-Ali/Ferrari-La-Ferrari-Webpage"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button>View on GitHub</button>
                   </a>
@@ -250,7 +275,7 @@ const Projects = () => {
                 <div className="singular-project-image">
                   <img
                     src="../images/projects/newfoundland_events.jpg"
-                    alt=""
+                    alt="Screenshot of the landing page of my group's 'Newfoundland Tourism' webpage"
                   />
                 </div>
                 <div className="singular-project-text">
@@ -272,6 +297,7 @@ const Projects = () => {
                     className="button"
                     href="https://github.com/Nasser-A-Ali/Newfoundland-Tourism-Webpage"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button>View on GitHub</button>
                   </a>
@@ -282,7 +308,10 @@ const Projects = () => {
             <>
               <div className="singular-project-container">
                 <div className="singular-project-image">
-                  <img src="../images/projects/hab_taxi_services.png" alt="" />
+                  <img
+                    src="../images/projects/hab_taxi_services.png"
+                    alt="Screenshot of the my group's 'HAB Taxi Services' Python project"
+                  />
                 </div>
                 <div className="singular-project-text">
                   <h2>HAB Taxi Services Program</h2>
@@ -305,6 +334,7 @@ const Projects = () => {
                     className="button"
                     href="https://github.com/Nasser-A-Ali/HAB-Taxi-Services-Project"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button>View on GitHub</button>
                   </a>
@@ -315,7 +345,7 @@ const Projects = () => {
                 <div className="singular-project-image">
                   <img
                     src="../images/projects/one_stop_insurance_company.png"
-                    alt=""
+                    alt="Screenshot of the my 'One Stop Insurance Company' Python project"
                   />
                 </div>
                 <div className="singular-project-text">
@@ -339,6 +369,7 @@ const Projects = () => {
                     className="button"
                     href="https://github.com/Nasser-A-Ali/One-Stop-Insurance-Company-Project"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button>View on GitHub</button>
                   </a>
@@ -349,7 +380,7 @@ const Projects = () => {
                 <div className="singular-project-image">
                   <img
                     src="../images/projects/honest_harry_car_sales.png"
-                    alt=""
+                    alt="Screenshot of the my 'Honest Harry' Python project"
                   />
                 </div>
                 <div className="singular-project-text">
@@ -371,6 +402,7 @@ const Projects = () => {
                     className="button"
                     href="https://github.com/Nasser-A-Ali/Honest-Harry-Car-Sales-Project/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <button>View on GitHub</button>
                   </a>
