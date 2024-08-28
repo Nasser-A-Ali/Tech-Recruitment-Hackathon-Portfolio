@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route, useLocation } from "react-router-dom";
+import { Routes } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
+
+import NavBar from "./Components/NavBar";
+import Home from "./Components/Home";
+import Projects from "./Components/Projects";
+import SkillsAndExperience from "./Components/SkillsAndExperience";
+import AboutMe from "./Components/AboutMe";
+import Contact from "./Components/Contact";
 
 function App() {
+  // This hook is used to determine the current location of the app to pass to the AnimatePresence component.
+  const location = useLocation();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <AnimatePresence mode="wait">
+        <Routes location={location} key={location.pathname}>
+          <Route index element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route
+            path="/skills_and_experience"
+            element={<SkillsAndExperience />}
+          />
+          <Route path="/about_me" element={<AboutMe />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </AnimatePresence>
+    </>
   );
 }
 

@@ -1,38 +1,933 @@
+/* Base Styles */
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #128d90;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
 .App {
+  text-align: center;
+  background: #128d90;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.orange-text {
+  color: #f58a07;
+}
+
+/* Navigation Bar Styles */
+.nav-bar {
+  display: flex;
+  width: auto;
+  padding: 0 5% 0 8%;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border: 1px solid #128d90;
+  border-bottom: none;
+  background: #1c1d1e;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+  width: 292px;
+  height: 52px;
+  background: url(../public/images/nasser_ali_logo.webp) no-repeat;
+  background-position: 1.449px -1.822px;
+  background-size: 100.214% 143.59%;
+}
+
+.nav-links {
+  display: flex;
+  width: 50em;
+  padding: 0.5em;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.nav-links a {
+  color: #128d90;
+  font-family: Inter, sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 170%;
+  text-decoration: none;
+}
+
+.nav-links a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #128d90;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+}
+
+.nav-links a:hover {
+  color: #fff;
+}
+
+.nav-links a:hover::after {
+  transform: scaleX(1);
+  background: #fff;
+}
+
+.nav-links a:active {
+  color: #f58a07;
+}
+
+.nav-links a:active::after {
+  background: #f58a07;
+}
+
+/* Social Media Bar Styles */
+.social-media-bar {
+  display: flex;
+  padding: 0 1.5em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #1c1d1e;
+  border-left: 1px solid #128d90;
+}
+
+.social-media-bar svg:hover {
+  fill: #128d90;
+}
+
+.social-media-bar svg:active {
+  fill: #f58a07;
+}
+
+.social-media-icon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+svg {
+  fill: #ffffff;
+}
+
+/* Home Page Styles */
+.home-container {
+  display: flex;
+  align-self: stretch;
+  height: calc(100vh - 56px); /* Subtracts the height of the nav bar */
+  gap: 10px;
+}
+
+.main-picture-div {
+  display: flex;
+  height: auto;
+  width: 30%;
+  padding: 0 32px;
+  flex-direction: column;
+}
+
+.main-picture-frame {
+  display: flex;
+  margin-top: -1px;
+  height: 90%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 0 0 8px 8px;
+  background: #1c1d1e;
+  overflow: hidden;
+}
+
+#main-picture {
+  width: 85%;
+  height: 100%;
+  background-image: url(../public/images/home_photo.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: translateY(5%);
+}
+
+.introduction-section {
+  display: flex;
+  width: 80%;
+  padding: 165px 60px;
+  padding-top: 20vh;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.introduction-section p,
+.introduction-header {
+  align-self: stretch;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.introduction-header {
+  font-size: 80px;
+  margin: 0px;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+
+/* Review */
+.introduction-section a:link,
+.introduction-section a:visited {
+  color: #fff;
+}
+
+.introduction-section a:hover {
+  color: #1c1d1e;
+}
+
+.introduction-section a:active {
+  color: #f58a07;
+}
+/* -------------------- */
+
+/* Projects Page Styles */
+.projects-container {
+  display: flex;
+  align-self: stretch;
+  gap: 10px;
+  height: calc(100vh - 56px); /* Subtracts the height of the nav bar */
+}
+
+.projects-text {
+  align-self: stretch;
+  display: flex;
+  width: 40%;
+  padding: 4% 31px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  max-height: 100vh;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 170%;
+  overflow-x: auto;
+}
+
+.projects-text h1 {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+
+.projects-text a:link,
+.projects-text a:visited {
+  color: #fff;
+}
+
+.projects-text a:hover {
+  color: #f58a07;
+}
+
+.projects-text a:active {
+  color: #1c1d1e;
+}
+
+.white-bar {
+  display: flex;
+  margin: 36px 0px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+/* .projects-scroller, */
+.about-me-scroller /* Added About Me scroller here since they had identical styles */ {
+  display: flex;
+  margin-top: 5vh;
+  margin-right: 20px;
+  padding: 20px 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  gap: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  max-height: 100vh;
+  border-top: #fff 1px solid;
+}
+
+.singular-project-container {
+  display: inline-flex;
+  /* width: 95%; */
+  padding: 40px;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  background: #1c1d1e;
+}
+
+.singular-project-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #d3d3d3 50% / cover no-repeat;
+  overflow: hidden;
+}
+
+.singular-project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.singular-project-text {
+  width: 100%;
+  padding: 0 3%;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%;
+}
+
+.singular-project-text h2 {
+  color: #128d90;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0;
+}
+
+.highlighted-skills {
+  color: #f58a07;
+}
+
+button {
+  display: block;
+  background: #128d90;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 170%;
+  padding: 10px 20px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #15a9ac;
+}
+
+button:active {
+  background: #f58a07;
+}
+
+a.button {
+  text-decoration: none;
+}
+
+/* Experience & Skills Page Styles */
+.experience-and-skills-container,
+.about-me-container {
+  display: flex;
+  align-self: stretch;
+  gap: 10px;
+  height: calc(100vh - 56px); /* Subtracts the height of the nav bar */
+}
+
+.experience-and-skills-text,
+.about-me-text {
+  align-self: stretch;
+  display: flex;
+  width: 40%;
+  padding: 4% 31px 20px 31px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  max-height: 100vh;
+  color: #fff;
+  font-family: "Georgia", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 170%;
+  overflow-x: auto;
+}
+
+.experience-and-skills-text h1,
+.about-me-text h1 {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+
+.experience-and-skills-text h2,
+.about-me-text h2 {
+  font-family: "Inter", serif;
+}
+
+.experience-and-skills-text ul,
+.about-me-text ul {
+  padding-inline-start: 20px;
+}
+
+.yellow-text {
+  color: #f9c80e;
+}
+
+.job-experience-scroller,
+.projects-scroller {
+  display: flex;
+  height: auto;
+  /* overflow-x: auto; */
+  overflow-y: scroll;
+  margin-right: 20px;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100vh;
+  padding-bottom: 20px;
+}
+
+.toggle-container {
+  align-self: center;
+  margin: 50px 0px 30px 0px;
+  padding: 10px;
+  width: 80%;
+  height: auto;
+  background: #1c1d1e;
+  border-radius: 40px;
+}
+
+.toggle-button:hover {
+  background-color: initial;
+  color: #f58a07;
+}
+
+.toggle-buttons {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.toggle-button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  color: #6c757d;
+  transition: color 0.3s;
+}
+
+.toggle-button.active {
+  color: #fff;
+  background: #128d90;
+  transition: transform 2s ease-in-out;
+}
+
+.toggle-slider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 3px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.singular-job-container {
+  display: inline-flex;
+  padding: 24px;
+  align-items: flex-start;
+  gap: 16px;
+  width: 90%;
+  border-radius: 8px;
+  background: #1c1d1e;
+}
+
+.singular-job-text,
+.misc-about-text {
+  padding: 0 3%;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%;
+}
+
+.singular-job-text h2 {
+  color: #128d90;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.singular-job-text li,
+.misc-about-text li {
+  padding: 8px 0;
+}
+
+.singular-job-text h5 {
+  color: #f58a07;
+}
+
+/* About Me Page Styles */
+.misc-about-container {
+  display: inline-flex;
+  padding: 8px 0px;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  border-radius: 8px;
+  background: #1c1d1e;
+}
+
+.misc-about-text a {
+  color: #306bac;
+  text-decoration: underline dotted;
+}
+
+.misc-about-text a:hover,
+.misc-about-text a:visited:hover {
+  color: #f58a07;
+}
+
+.misc-about-text a:active,
+.misc-about-text a:visited:active {
+  color: #bf211e;
+}
+
+.misc-about-text a:visited {
+  color: #b497d6;
+}
+
+/* Contact Page Styles */
+.contact-container {
+  display: flex;
+  gap: 64px;
+  margin-top: 36px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.headshot-container {
+  width: 335px;
+  height: 335px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 3px solid #1c1d1e;
+  background: url(../public/images/headshot_photo.webp) lightgray 50% / cover
+    no-repeat;
+}
+
+.get-in-touch-container {
+  display: flex;
+  width: 380px;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.get-in-touch-container h1 {
+  color: #fff;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: normal;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.social-div {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 16px auto;
+  gap: 24px;
+  align-self: stretch;
 }
 
-.App-link {
-  color: #61dafb;
+.social-icons {
+  display: flex;
+  width: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.social-links {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.social-links a {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  align-self: stretch;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #1c1d1e;
+}
+
+/* Transition Effects */
+.slide-in,
+.slide-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #1c1d1e;
+}
+
+.slide-in {
+  transform-origin: right;
+}
+
+.slide-out {
+  transform-origin: left;
+}
+
+/* Navigation Bar Hamburger Menu Icon Styles */
+#hamburger-icon {
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #128d90;
+  transition: all 0.3s;
+}
+
+#hamburger-icon.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+#hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+#hamburger-icon.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Laptop Responsive Design Styles */
+@media (max-width: 1440px) {
+  /* Projects Page Styles */
+  .singular-project-container {
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .singular-project-image {
+    width: auto;
+    height: 250px;
+  }
+}
+
+/* Smaller Laptop & Tablet Responsive Design Styles */
+@media (max-width: 1250px) {
+  /* Navigation Bar Styles */
+  .nav-bar {
+    flex-direction: row;
+    width: auto;
+    padding: 0.5em 8%;
+  }
+
+  .nav-logo {
+    width: 14em;
+    height: 2.5em;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+
+  .nav-links a {
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    position: absolute;
+    top: 57px;
+    right: -0.5em;
+    background-color: #1c1d1e;
+    padding: 10px;
+    border: 1px solid #128d90;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.open {
+    display: flex;
+    z-index: 1;
+  }
+
+  /* Hides Social Media Bar */
+  .social-media-bar {
+    display: none;
+  }
+
+  /* Home Page Styles */
+  .main-picture-div {
+    width: 100%;
+  }
+
+  .main-picture-frame {
+    width: 100%;
+  }
+
+  #main-picture {
+    width: 100%;
+    transform: none;
+  }
+
+  .introduction-section {
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .introduction-section p,
+  .introduction-header {
+    text-align: center;
+  }
+
+  .introduction-section p {
+    font-size: 24px;
+  }
+  .introduction-header {
+    font-size: 48px;
+  }
+
+  /* Projects Page Styles */
+  .projects-text {
+    font-size: 18px;
+  }
+
+  /* Experience & Skills Page Styles */
+  .experience-and-skills-text,
+  .about-me-text {
+    box-sizing: border-box;
+    overflow-x: scroll;
+    font-size: 18px;
+  }
+
+  .experience-and-skills-text h1,
+  .about-me-text h1 {
+    font-size: 48px;
+  }
+
+  .singular-job-text ul,
+  .misc-about-text ul {
+    padding-inline-start: 20px;
+  }
+
+  /* Additional Styles */
+  .white-bar {
+    margin: 24px 0px;
+  }
+}
+
+/* Mobile Responsive Design Styles */
+@media (max-width: 769px) {
+  /* Base Styles Adjustments */
+  .App {
+    width: 100%;
+    align-items: center;
+  }
+
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    height: calc(100vh - 56px); /* Subtracts the height of the nav bar */
+  }
+
+  .projects-container,
+  .experience-and-skills-container,
+  .about-me-container,
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    gap: 10px;
+    height: auto;
+  }
+
+  /* Navigation Bar Styles */
+  .nav-bar {
+    flex-direction: row;
+    width: auto;
+    padding: 0.5em 8%;
+  }
+
+  .nav-logo {
+    width: 14em;
+    height: 2.5em;
+  }
+
+  /* Home Page Styles */
+  .main-picture-div {
+    width: 70%;
+    height: 50%;
+    padding: 0;
+  }
+
+  .main-picture-frame {
+    /* width: 100%; */
+    min-height: 50vh;
+  }
+
+  .introduction-section p {
+    font-size: 16px;
+  }
+
+  /* Projects Page Styles */
+  /* .projects-scroller, */
+  .about-me-scroller {
+    margin-top: 0px;
+    height: auto;
+    overflow-x: hidden;
+    align-items: center;
+    max-height: none;
+    margin-right: 0;
+  }
+
+  .projects-text {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: visible;
+    max-height: none;
+  }
+
+  .projects-text h1 {
+    font-size: 48px;
+  }
+
+  .singular-project-container {
+    width: auto;
+    padding: 20px;
+  }
+
+  .singular-project-image {
+    width: 80%;
+    height: auto;
+  }
+
+  /* Experience & Skills Page Styles */
+  .experience-and-skills-text h1,
+  .about-me-text h1 {
+    font-size: 48px;
+  }
+
+  .experience-and-skills-text,
+  .about-me-text {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: visible;
+    max-height: none;
+  }
+
+  .job-experience-scroller,
+  .projects-scroller {
+    margin-top: 0px;
+    height: auto;
+    overflow-x: hidden;
+    gap: 10px;
+    align-items: center;
+    max-height: none;
+  }
+
+  .toggle-container {
+    margin-top: 0;
+  }
+
+  .toggle-button {
+    font-size: 16px;
+  }
+
+  .singular-job-container {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  /* About Me Page Styles */
+  .misc-about-container {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  /* Contact Page Styles */
+  .headshot-container {
+    width: 250px;
+    height: 250px;
+  }
+
+  .get-in-touch-container {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .get-in-touch-container h1 {
+    font-size: 48px;
+  }
+
+  .social-links a {
+    font-size: 20px;
   }
 }
