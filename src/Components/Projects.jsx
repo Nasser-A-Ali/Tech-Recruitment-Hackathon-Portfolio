@@ -30,7 +30,7 @@ const Projects = () => {
             Figma and developed in React.js, the code can be viewed on GitHub
             through{" "}
             <a
-              href="https://github.com/Nasser-A-Ali/Nas-Portfolio"
+              href="https://github.com/Nasser-A-Ali/My-Portfolio"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -74,7 +74,7 @@ const Projects = () => {
               <div className="singular-project-container">
                 <div className="singular-project-image">
                   <img
-                    src="../images/projects/tech_trends.jpg"
+                    src="./images/projects/tech_trends.jpg"
                     alt="Screenshot of the landing page of my 'Tech Trends' project"
                   />
                 </div>
@@ -111,7 +111,7 @@ const Projects = () => {
               <div className="singular-project-container">
                 <div className="singular-project-image">
                   <img
-                    src="../images/projects/the_local_restaurant.jpg"
+                    src="./images/projects/the_local_restaurant.jpg"
                     alt="Screenshot of the landing page of my 'The Local Restaurant' project"
                   />
                 </div>
@@ -147,7 +147,7 @@ const Projects = () => {
               <div className="singular-project-container">
                 <div className="singular-project-image">
                   <img
-                    src="../images/projects/dog_image_gallery.jpg"
+                    src="./images/projects/dog_image_gallery.jpg"
                     alt="Screenshot of the landing page of my 'Dog Images Gallery' project"
                   />
                 </div>
@@ -180,7 +180,7 @@ const Projects = () => {
               <div className="singular-project-container">
                 <div className="singular-project-image">
                   <img
-                    src="../images/projects/task_tracker.jpg"
+                    src="./images/projects/task_tracker.jpg"
                     alt="Screenshot of the landing page of my 'Task Tracker' project"
                   />
                 </div>
@@ -213,7 +213,7 @@ const Projects = () => {
               <div className="singular-project-container">
                 <div className="singular-project-image">
                   <img
-                    src="../images/projects/libyan_culture.jpg"
+                    src="./images/projects/libyan_culture.jpg"
                     alt="Screenshot of the landing page of my 'Libyan Culture' webpage"
                   />
                 </div>
@@ -242,7 +242,7 @@ const Projects = () => {
               <div className="singular-project-container">
                 <div className="singular-project-image">
                   <img
-                    src="../images/projects/ferrari_la_ferrari.jpg"
+                    src="./images/projects/ferrari_la_ferrari.jpg"
                     alt="Screenshot of the landing page of my 'Ferrari La Ferrari' project"
                   />
                 </div>
@@ -274,7 +274,7 @@ const Projects = () => {
               <div className="singular-project-container">
                 <div className="singular-project-image">
                   <img
-                    src="../images/projects/newfoundland_events.jpg"
+                    src="./images/projects/newfoundland_events.jpg"
                     alt="Screenshot of the landing page of my group's 'Newfoundland Tourism' webpage"
                   />
                 </div>
@@ -309,7 +309,7 @@ const Projects = () => {
               <div className="singular-project-container">
                 <div className="singular-project-image">
                   <img
-                    src="../images/projects/hab_taxi_services.png"
+                    src="./images/projects/hab_taxi_services.png"
                     alt="Screenshot of the my group's 'HAB Taxi Services' Python project"
                   />
                 </div>
@@ -344,7 +344,7 @@ const Projects = () => {
               <div className="singular-project-container">
                 <div className="singular-project-image">
                   <img
-                    src="../images/projects/one_stop_insurance_company.png"
+                    src="./images/projects/one_stop_insurance_company.png"
                     alt="Screenshot of the my 'One Stop Insurance Company' Python project"
                   />
                 </div>
@@ -379,7 +379,7 @@ const Projects = () => {
               <div className="singular-project-container">
                 <div className="singular-project-image">
                   <img
-                    src="../images/projects/honest_harry_car_sales.png"
+                    src="./images/projects/honest_harry_car_sales.png"
                     alt="Screenshot of the my 'Honest Harry' Python project"
                   />
                 </div>

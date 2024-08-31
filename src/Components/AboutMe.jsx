@@ -183,6 +183,7 @@ const AboutMe = () => {
                   <a
                     href="https://www.cbc.ca/player/play/video/1.6859380"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     {" "}
                     link to video
@@ -196,6 +197,7 @@ const AboutMe = () => {
                   <a
                     href="https://www.youtube.com/live/YwdWXlcrTqM?si=ozDmfK9G7bo3T2YS&t=2913"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     link to video: 48:33 to 50:30
                   </a>{" "}
@@ -203,6 +205,7 @@ const AboutMe = () => {
                   <a
                     href="https://www.cbc.ca/news/canada/newfoundland-labrador/st-johns-muslims-feed-a-homie-1.4701101"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     link to article
                   </a>{" "}

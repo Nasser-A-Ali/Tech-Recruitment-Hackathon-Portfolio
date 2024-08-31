@@ -41,10 +41,15 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/Nasser-A-Ali/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 linkedin.com/in/nasser-a-ali
               </a>
-              <a href="https://www.github.com/Nasser-A-Ali/" target="_blank">
+              <a
+                href="https://www.github.com/Nasser-A-Ali/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 github.com/nasser-a-ali
               </a>
               <a href="mailto:nasserali60@live.com">nasserali60@live.com</a>

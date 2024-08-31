@@ -11,8 +11,7 @@ import AboutMe from "./Components/AboutMe";
 import Contact from "./Components/Contact";
 
 function App() {
-  // This hook is used to determine the current location of the app to pass to the AnimatePresence component.
-  const location = useLocation();
+  const location = useLocation(); // Get the current location
   return (
     <>
       <NavBar />
