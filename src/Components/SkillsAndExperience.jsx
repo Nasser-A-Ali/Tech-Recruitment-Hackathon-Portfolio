@@ -207,7 +207,7 @@ const SkillsAndExperience = () => {
                   <ul>
                     <li>
                       Engaged customers in a friendly, calm, and respectful
-                      manner, ffectively pitching the BMO Sobeys Airmiles
+                      manner, effectively pitching the BMO Sobeys Airmiles
                       MasterCard.
                     </li>
                     <li>
