@@ -41,7 +41,6 @@ const SkillsAndExperience = () => {
               </li>
             </ul>
           </section>
-
           <section>
             <h2>Certifications & Qualifications</h2>
             <p>
@@ -64,7 +63,6 @@ const SkillsAndExperience = () => {
               </li>
             </ul>
           </section>
-
           <section>
             <h2>Education</h2>
             <ul>
@@ -83,6 +81,9 @@ const SkillsAndExperience = () => {
               </li>
             </ul>
           </section>
+          <a id="resume-link" href="./Nas_Resume.pdf">
+            <button id="resume-button">View Resumé</button>
+          </a>
         </aside>
 
         <aside className="job-experience-scroller">

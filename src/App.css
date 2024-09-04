@@ -343,6 +343,36 @@ a.button {
   height: calc(100vh - 56px); /* Subtracts the height of the nav bar */
 }
 
+#resume-button {
+  display: block;
+  background: #128d90;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 170%;
+  padding: 10px 20px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 32px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  align-self: center;
+}
+
+#resume-button:hover {
+  background: #0e797a;
+}
+
+#resume-button:active {
+  background: #f58a07;
+}
+
+#resume-link {
+  text-decoration: none;
+  margin: 0 auto;
+}
+
 .experience-and-skills-text,
 .about-me-text {
   align-self: stretch;

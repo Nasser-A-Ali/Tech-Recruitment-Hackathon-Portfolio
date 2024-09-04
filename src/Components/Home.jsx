@@ -30,6 +30,9 @@ const Home = () => {
             <strong>collaborate</strong> and <strong>thrive</strong> in dynamic
             environments.
           </p>
+          <a id="resume-link" href="./Nas_Resume.pdf">
+            <button id="resume-button">View Resumé</button>
+          </a>
         </div>
       </div>
     </>

@@ -64,7 +64,7 @@ const Projects = () => {
                 onClick={isWebApps ? toggleExperience : undefined}
                 disabled={!isWebApps} // Disables the active button
               >
-                Console Applications
+                CLI Applications
               </button>
             </div>
           </div>
