@@ -164,6 +164,19 @@ const AboutMe = () => {
               <h2>Miscellaneous</h2>
               <ul>
                 <li>
+                  Earned 2nd place at the Royal Canadian Navy Hackathon ({" "}
+                  <a
+                    href="https://www.linkedin.com/feed/update/urn:li:activity:7238338999696728064/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    LinkedIn post sharing my experience
+                  </a>{" "}
+                  ) <span className="orange-text">(September 2024)</span>{" "}
+                </li>
+
+                <li>
                   Runway Model @ The Ultimate Bridal Show{" "}
                   <span className="orange-text">
                     (March 2023, Ocobter 2023)

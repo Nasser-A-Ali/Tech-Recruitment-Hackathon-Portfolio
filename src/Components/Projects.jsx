@@ -309,7 +309,41 @@ const Projects = () => {
               <div className="singular-project-container">
                 <div className="singular-project-image">
                   <img
-                    src="./images/projects/hab_taxi_services.png"
+                    src="./images/projects/password_generator.png"
+                    alt="Screenshot of the my 'Password Generator' node project"
+                  />
+                </div>
+                <div className="singular-project-text">
+                  <h2>Password Generator Program</h2>
+                  <p>
+                    A simple password generator created using Node.js. The user
+                    can specify the length of the password, whether it should
+                    include numbers, symbols, and/or uppercase letters. Contains
+                    various error handling features.
+                  </p>
+                  <p className="underlined">
+                    <u>Highlighted skills</u>:{" "}
+                    <span className="highlighted-skills">
+                      Node.js, Input Validation, Error Handling, Functional
+                      Programming, Formatted Output, Iterative Statements
+                      (Loops)
+                    </span>
+                  </p>
+                  <a
+                    className="button"
+                    href="https://github.com/Nasser-A-Ali/Password-Generator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button>View on GitHub</button>
+                  </a>
+                </div>
+              </div>
+
+              <div className="singular-project-container">
+                <div className="singular-project-image">
+                  <img
+                    src="./images/projects/hab_taxi_services.jpg"
                     alt="Screenshot of the my group's 'HAB Taxi Services' Python project"
                   />
                 </div>
@@ -344,7 +378,7 @@ const Projects = () => {
               <div className="singular-project-container">
                 <div className="singular-project-image">
                   <img
-                    src="./images/projects/one_stop_insurance_company.png"
+                    src="./images/projects/one_stop_insurance_company.jpg"
                     alt="Screenshot of the my 'One Stop Insurance Company' Python project"
                   />
                 </div>
@@ -379,7 +413,7 @@ const Projects = () => {
               <div className="singular-project-container">
                 <div className="singular-project-image">
                   <img
-                    src="./images/projects/honest_harry_car_sales.png"
+                    src="./images/projects/honest_harry_car_sales.jpg"
                     alt="Screenshot of the my 'Honest Harry' Python project"
                   />
                 </div>

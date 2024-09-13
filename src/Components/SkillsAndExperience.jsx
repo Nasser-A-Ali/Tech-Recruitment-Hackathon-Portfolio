@@ -50,6 +50,9 @@ const SkillsAndExperience = () => {
             <ul>
               <li>AWS Academy Graduate - AWS Academy Cloud Foundations.</li>
               <li>
+                Earned 2nd Place in the 2024 Royal Canadian Navy Hackathon.
+              </li>
+              <li>
                 Trilingual - fluent in English and Arabic, proficient in
                 Spanish.
               </li>
