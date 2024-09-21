@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Tech-Recruitment-Hackathon-Portfolio/static/css/main.6610f4e7.css",
+    "main.js": "/Tech-Recruitment-Hackathon-Portfolio/static/js/main.d1a7ef16.js",
+    "static/js/453.95563e6d.chunk.js": "/Tech-Recruitment-Hackathon-Portfolio/static/js/453.95563e6d.chunk.js",
+    "static/media/home_photo.webp": "/Tech-Recruitment-Hackathon-Portfolio/static/media/home_photo.1805f966adacd62ea2f1.webp",
+    "static/media/headshot_photo.webp": "/Tech-Recruitment-Hackathon-Portfolio/static/media/headshot_photo.a414ab41219b274de7ae.webp",
+    "static/media/nasser_ali_logo.webp": "/Tech-Recruitment-Hackathon-Portfolio/static/media/nasser_ali_logo.ac664fa23fa8778b61df.webp",
+    "index.html": "/Tech-Recruitment-Hackathon-Portfolio/index.html",
+    "main.6610f4e7.css.map": "/Tech-Recruitment-Hackathon-Portfolio/static/css/main.6610f4e7.css.map",
+    "main.d1a7ef16.js.map": "/Tech-Recruitment-Hackathon-Portfolio/static/js/main.d1a7ef16.js.map",
+    "453.95563e6d.chunk.js.map": "/Tech-Recruitment-Hackathon-Portfolio/static/js/453.95563e6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6610f4e7.css",
+    "static/js/main.d1a7ef16.js"
+  ]
+}
