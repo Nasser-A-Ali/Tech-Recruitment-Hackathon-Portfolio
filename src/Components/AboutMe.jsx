@@ -15,14 +15,9 @@ const AboutMe = () => {
               I was born in Libya and moved to Canada in 2008. Prior to that, I
               lived in Malaysia from 2001 to 2004. I am a social person that
               loves to meet new people and make new friends. I am also an
-              enthusiastic individual who loves exploring new interests. I am an
-              active person who enjoys playing sports, hiking, and
-              weightlifting. My competitive spirit drives me to setting
-              ambitious goals and working diligently to achieve them. I am
-              passionate about making a positive impact on the world and take
-              great joy in helping others and giving back to my community.
+              enthusiastic individual who loves exploring new interests.
               Overall, I strive to lead a fulfilling life while making
-              meaningful contributions to those around me.
+              meaningful contributions to my community and those around me.
             </p>
           </section>
 
@@ -30,17 +25,13 @@ const AboutMe = () => {
             <h2>Personal Qualities and Values</h2>
             <p>
               Creativity, curiosity, and determination are at the core of who I
-              am. I express myself through various forms of art and I
-              continuously seek to learn and explore new ideas. I approach
-              challenges with a disciplined and enthusiastic mindset, constantly
-              striving to be the best version of myself. Due to my friendly and
-              caring nature, I value being a supportive and understanding
-              presence for others. I am committed to giving back to my community
-              and helping those in need. Honesty and humility are central to my
-              character and guide me in making thoughtful decisions and building
-              strong and loyal relationships. Versatility and wisdom are traits
-              I embrace as I navigate through life's various experiences, always
-              learning and growing.
+              am, constantly driving me to be the best version of myself. I
+              express myself through various forms of art and I continuously
+              seek to learn and explore new ideas. Honesty and humility are
+              central to my character and guide me in making thoughtful
+              decisions and building strong and loyal relationships. Versatility
+              and wisdom are traits I embrace as I navigate through life's
+              various experiences, always learning and growing.
             </p>
           </section>
         </aside>
@@ -225,11 +216,6 @@ const AboutMe = () => {
                   ) <span className="orange-text">(June 2018)</span>{" "}
                 </li>
 
-                <li>
-                  Scouter with Scounts Canada{" "}
-                  <span className="orange-text">(2017 - 2018)</span>{" "}
-                </li>
-
                 {/* <li>
                   Arabic & Quran Teacher{" "}
                   <span className="orange-text">(2009 - 2013)</span>{" "}
@@ -259,12 +245,6 @@ const AboutMe = () => {
                 <li>
                   I learned the English language in 6 months and had no acccent
                   after 2 years.
-                </li>
-                <li>
-                  I have survived a serious mystery medical condition (possibly
-                  idiopathic thrombocytopenia purpura) as a child after the
-                  doctors said there was no hope I would make it, and that I
-                  have less than two weeks left to live.
                 </li>
               </ul>
             </div>

@@ -1,7 +1,7 @@
 {
-  "name": "nas-portfolio",
+  "name": "tech-recruitment-hackathon-portfolio",
   "version": "0.1.0",
-  "homepage": "https://nasser-a-ali.github.io/my-portfolio",
+  "homepage": "https://nasser-a-ali.github.io/Tech-Recruitment-Hackathon-Portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

@@ -17,18 +17,16 @@ const Home = () => {
           <p>Hello, my name is</p>
           <h1 className="introduction-header">Nasser Ali</h1>
           <p className="introduction-paragraph">
-            I am a <strong>dedicated</strong> and <strong>versatile</strong>{" "}
-            Junior Software Developer with a passion for{" "}
-            <strong>problem-solving</strong> and commitment to{" "}
-            <strong>continuous learning</strong>. I am{" "}
-            <strong>seeking an internship</strong> position in the software
-            development field to help me <strong>develop my skills</strong> and{" "}
-            <strong>contribute to innovative projects</strong>. My journey has
-            equipped me with a strong blend of{" "}
-            <strong>technical expertise</strong> and{" "}
-            <strong>a wide array of skills</strong> that sharpened my ability to{" "}
-            <strong>collaborate</strong> and <strong>thrive</strong> in dynamic
-            environments.
+            I am a <strong>creative</strong> and <strong>versatile</strong>{" "}
+            Front-End Developer with a passion for creating{" "}
+            <strong>accessible</strong> and <strong>user-centric</strong>{" "}
+            design. I am <strong>seeking a front-end development</strong>{" "}
+            position to help me{" "}
+            <strong>contribute to innovative projects and </strong>
+            <strong>develop my skills</strong> in web technologies. My{" "}
+            <strong>technical background</strong> and focus on{" "}
+            <strong>teamwork</strong> has prepared me to excel in{" "}
+            <strong>fast-paced</strong> environments.
           </p>
           <a id="resume-link" href="./Nas_Resume.pdf">
             <button id="resume-button">View Resumé</button>

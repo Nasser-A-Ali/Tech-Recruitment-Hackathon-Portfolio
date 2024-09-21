@@ -21,31 +21,14 @@ const Projects = () => {
           <div className="white-bar"></div>
           <p>
             Here are some of the projects I have created, through which I have
-            gained experience in web development, programming, and design. Check
-            out the highlighted skills for each project to see what I used to
-            create them.
-          </p>
-          <p>
-            The portfolio website you are currently viewing was designed in
-            Figma and developed in React.js, the code can be viewed on GitHub
-            through{" "}
-            <a
-              href="https://github.com/Nasser-A-Ali/My-Portfolio"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              this link
-            </a>
-            . Some of the highlighted skills used in making it include{" "}
-            <span className="yellow-text">
-              React.js, React Hooks, React Router, HTML, CSS, CSS animations,
-              @media queries, and DOM Manipulation.
-            </span>{" "}
+            gained experience in <strong>web development</strong>,{" "}
+            <strong>programming</strong>, and <strong>design</strong>. Check out
+            the highlighted skills for each project to see what I used to create
+            them.
           </p>
           <p>
             {" "}
-            I am also working on more new projects that I am excited to share
-            soon.
+            I am also working on more projects that I am excited to share soon.
           </p>
         </aside>
 
@@ -82,12 +65,12 @@ const Projects = () => {
                   <h2>Tech Trends React Webpage</h2>
 
                   <p>
-                    An ecommerce website for a fictional tech store called "Tech
-                    Trends". The website was designed in Figma and created using
-                    React.js. It pulls products and their details from a JSON
-                    file and displays them on the home page. The website also
-                    includes a cart page that displays the items that users
-                    added and displays the total cost of the items in the cart.
+                    Developed an eCommerce website for "Tech Trends" using{" "}
+                    <strong>React.js</strong>, designed in{" "}
+                    <strong>Figma</strong>. The site fetches product details
+                    from a <strong>JSON</strong> file for display on the
+                    homepage and features a cart page that shows added items and
+                    their total cost.
                   </p>
                   <p className="underlined">
                     <u>Highlighted skills</u>:{" "}
@@ -119,13 +102,13 @@ const Projects = () => {
                   <h2>The Local Restaurant Webpage</h2>
 
                   <p>
-                    This website was created for a fictional restaurant called
-                    The Local Restaurant. It was designed in Figma first and
-                    then developed using HTML, CSS, and vanilla JavaScript. Some
-                    of the features of this website include a menu page that
-                    pulls items and their details from a JSON file and appends
-                    them through DOM manipulation and an order page that uses a
-                    form, performs calculations, and returns an order summary.
+                    Created a website for the fictional "The Local Restaurant,"
+                    designed in <strong>Figma</strong> and built with{" "}
+                    <strong>HTML</strong>, <strong>CSS</strong>, and{" "}
+                    <strong>JavaScript</strong>. Key features include a menu
+                    page that fetches items from a <strong>JSON</strong> file
+                    and a form-based order page that calculates totals and
+                    displays an order summary.
                   </p>
                   <p className="underlined">
                     <u>Highlighted skills</u>:{" "}
@@ -154,10 +137,11 @@ const Projects = () => {
                 <div className="singular-project-text">
                   <h2>Dog Images Gallery React App</h2>
                   <p>
-                    This website was created using React.js and was designed as
-                    a way to practice pulling data from an API. It uses the Dog
-                    CEO API to fetch images of dogs based on the breed and
-                    number of images selected by the user.
+                    This website was created using <strong>React.js</strong> and
+                    was designed as a way to practice pulling data from an{" "}
+                    <strong>API</strong>. It uses the Dog CEO API to fetch
+                    images of dogs based on the breed and number of images
+                    selected by the user.
                   </p>
                   <p className="underlined">
                     <u>Highlighted skills</u>:{" "}
@@ -187,10 +171,12 @@ const Projects = () => {
                 <div className="singular-project-text">
                   <h2>Task Tracker React App</h2>
                   <p>
-                    This website was created using React.js and was designed as
-                    a way to practice REST API HTTP Methods. It allows users to
-                    add, delete, and toggle reminders for tasks stored in a JSON
-                    server.
+                    This website was created using <strong>React.js</strong> and
+                    was designed as a way to practice{" "}
+                    <strong>REST API HTTP Methods</strong>. It allows users to{" "}
+                    <strong>add</strong>, <strong>delete</strong>, and{" "}
+                    <strong>toggle</strong> reminders for tasks stored in a{" "}
+                    <strong>JSON</strong> server.
                   </p>
                   <p className="underlined">
                     <u>Highlighted skills</u>:{" "}
@@ -221,8 +207,8 @@ const Projects = () => {
                   <h2>Libyan Culture Webpage</h2>
                   <p>
                     This website was one of my first websites created as a way
-                    to practice HTML and CSS. It showcases the culture of my
-                    home country, Libya.
+                    to practice <strong>HTML</strong> and <strong>CSS</strong>.
+                    It showcases the culture of my home country, Libya.
                   </p>
                   <p className="underlined">
                     <u>Highlighted skills</u>:{" "}
@@ -249,12 +235,13 @@ const Projects = () => {
                 <div className="singular-project-text">
                   <h2>Ferrari La Ferrari Webpage</h2>
                   <p>
-                    This website was created as a way to practice using Figma to
-                    plan the design of a webpage. It showcases the Ferrari La
-                    Ferrari, a limited-edition hybrid sports car. The website
-                    was created using HTML and CSS. Only three pages were
-                    created: the home page, the features page, and the find your
-                    nearest dealer page.
+                    This website was created as a way to practice using{" "}
+                    <strong>Figma</strong> to plan the design of a webpage. It
+                    showcases the Ferrari La Ferrari, a limited-edition hybrid
+                    sports car. The website was created using{" "}
+                    <strong>HTML</strong> and <strong>CSS</strong>. Only three
+                    pages were created: the home page, the features page, and
+                    the find your nearest dealer page.
                   </p>
                   <p className="underlined">
                     <u>Highlighted skills</u>:{" "}
@@ -283,9 +270,9 @@ const Projects = () => {
                   <p>
                     This website was the first website I created as part of a
                     group. It showcases the province of Newfoundland and
-                    Labrador, Canada. The website was created using HTML and
-                    CSS. I was responsible for designing and developing the
-                    "events" page.
+                    Labrador, Canada. The website was created using{" "}
+                    <strong>HTML</strong> and <strong>CSS</strong>. I was
+                    responsible for designing and developing the "events" page.
                   </p>
                   <p className="underlined">
                     <u>Highlighted skills</u>:{" "}

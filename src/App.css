@@ -474,6 +474,7 @@ a.button {
   color: #fff;
   background: #128d90;
   transition: transform 2s ease-in-out;
+  border: 0.5px solid #fff;
 }
 
 .toggle-slider {

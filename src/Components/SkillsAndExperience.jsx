@@ -20,53 +20,6 @@ const SkillsAndExperience = () => {
           <h1>Skills & Experience</h1>
           <div className="white-bar"></div>
           <section>
-            <h2>Skills</h2>
-            <ul>
-              <li>
-                <u>Programming Languages & Frameworks</u>: Python, HTML, CSS,
-                JavaScript, React.js, Git Bash. Currently learning Java,
-                Node.js, and Express.js.
-              </li>
-
-              <li>
-                <u>Methodologies & Principles</u>: RESTful APIs, Object Oriented
-                Programming (OOP), Test Driven Development (TDD), Database
-                Design, Agile, Scrum, and Waterfall Development. Currently
-                learning Cloud Development and Database Normalization.
-              </li>
-
-              <li>
-                <u>Software Tools</u>: Amazon Web Services, Git, GitHub, Docker,
-                Postman. Currently learning MongoDB and PostgreSQL.
-              </li>
-            </ul>
-          </section>
-          <section>
-            <h2>Certifications & Qualifications</h2>
-            <p>
-              Here are some miscellaneous certifications and qualifications I
-              have obtained through the years:
-            </p>
-            <ul>
-              <li>AWS Academy Graduate - AWS Academy Cloud Foundations.</li>
-              <li>
-                Earned 2nd Place in the 2024 Royal Canadian Navy Hackathon.
-              </li>
-              <li>
-                Trilingual - fluent in English and Arabic, proficient in
-                Spanish.
-              </li>
-              <li>Krav Maga & Wadō-ryū Karate Black Belt.</li>
-              <li>
-                Various National Coaching Certification Program (NCCP)
-                Certifications (see my LinkedIn for details).
-              </li>
-              <li>
-                Various HIGH FIVE Certifications (see my LinkedIn for details).
-              </li>
-            </ul>
-          </section>
-          <section>
             <h2>Education</h2>
             <ul>
               <li>
@@ -84,9 +37,56 @@ const SkillsAndExperience = () => {
               </li>
             </ul>
           </section>
-          <a id="resume-link" href="./Nas_Resume.pdf">
-            <button id="resume-button">View Resumé</button>
-          </a>
+          <section>
+            <h2>Skills</h2>
+            <ul>
+              <li>
+                <u>
+                  <strong>Programming Languages & Frameworks</strong>
+                </u>
+                : Python, HTML, CSS, JavaScript, React.js, Git Bash.
+              </li>
+
+              <li>
+                <u>
+                  <strong>Methodologies & Principles</strong>
+                </u>
+                : RESTful APIs, Object Oriented Programming, and Database
+                Design.
+              </li>
+
+              <li>
+                <u>
+                  <strong>Software Tools</strong>
+                </u>
+                : Amazon Web Services, Git, and GitHub.
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h2>Certifications & Qualifications</h2>
+            <p>
+              Here are some miscellaneous certifications and qualifications I
+              have obtained through the years:
+            </p>
+            <ul>
+              <li>
+                <strong>AWS</strong> Academy Graduate - AWS Academy Cloud
+                Foundations.
+              </li>
+              <li>
+                Earned <strong>2nd Place</strong> in the 2024 Royal Canadian
+                Navy Hackathon.
+              </li>
+              <li>
+                <strong>Trilingual</strong> - fluent in English and Arabic,
+                proficient in Spanish.
+              </li>
+              <li>
+                Krav Maga & Wadō-ryū Karate <strong>Black Belt</strong>.
+              </li>
+            </ul>
+          </section>
         </aside>
 
         <aside className="job-experience-scroller">
@@ -175,48 +175,6 @@ const SkillsAndExperience = () => {
                     <li>
                       Managed booking software, maintained records, and
                       performed various administrative responsibilities.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="singular-job-container">
-                <div className="singular-job-text">
-                  <h2>Sales Representative @ Jump+</h2>
-                  <h5>2022 - 2023</h5>
-                  <ul>
-                    <li>
-                      Responded to customer concerns, supported, and assisted in
-                      achievement of store customer care, sales goals, and
-                      objectives.
-                    </li>
-                    <li>
-                      Followed company standards in resolving customer concerns
-                      and escalated to manager where required to ensure timely
-                      resolution.
-                    </li>
-                    <li>
-                      Remained aware of current knowledge of the latest
-                      technology products and industry trends.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="singular-job-container">
-                <div className="singular-job-text">
-                  <h2>Sales Representative @ SDI Marketing</h2>
-                  <h5>2018 - 2019</h5>
-                  <ul>
-                    <li>
-                      Engaged customers in a friendly, calm, and respectful
-                      manner, effectively pitching the BMO Sobeys Airmiles
-                      MasterCard.
-                    </li>
-                    <li>
-                      Achieved the joint-highest sales numbers for the
-                      Newfoundland division, consistently exceeding sales
-                      targets.
                     </li>
                   </ul>
                 </div>
